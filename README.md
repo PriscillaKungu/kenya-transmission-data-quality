@@ -40,11 +40,11 @@ Energy analysis is only as reliable as the underlying registers. This project sh
 5. **Explore**: counts by county, owner, voltage, control area, staffing, monitoring, communications, access.
 
 ## Data source
-**Kenya - Transmission Stations**, published on [ENERGYDATA.INFO](https://energydata.info/dataset/kenya-transmission-stations) (World Bank Group / ESMAP). The data was provided by Kenya Power and Lighting Company (KPLC). Released 2020, page last updated 24 November 2025. Licensed **CC0 1.0** (public domain), so the raw file is included in this repository. Date downloaded: [5/5/2026]. Full details in `docs/data_dictionary.md`.
+**Kenya - Transmission Stations**, published on [ENERGYDATA.INFO](https://energydata.info/dataset/kenya-transmission-stations) (World Bank Group / ESMAP). The data was provided by Kenya Power and Lighting Company (KPLC) . Released 2020, page last updated 24 November 2025. Licensed **CC0 1.0** (public domain), so the raw file is included in this repository. Date downloaded: [5/5/2026]. Full details in `docs/data_dictionary.md`.
 
 ## How to run
 ```bash
-git clone https://github.com/[PriscillaKungu]/kenya-transmission-data-quality.git
+git clone https://github.com/PriscillaKungu/kenya-transmission-data-quality.git
 cd kenya-transmission-data-quality
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -57,6 +57,7 @@ Python (pandas, NumPy, regex, datetime), data cleaning and reconciliation, missi
 ## Limitations
 - Cleaned values are only as good as the source; unresolved gaps are flagged, not imputed.
 - Completeness thresholds (90/70%) are analytical choices for this project, not industry standards.
+- This analysis describes infrastructure and data-quality characteristics; it does not assess electrical reliability, station criticality, equipment condition, or failure probability.
 
 ## Author
 Priscilla Kungu · Mechanical Engineer & Junior Data Scientist · Nairobi, Kenya
