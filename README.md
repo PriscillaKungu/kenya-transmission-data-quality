@@ -61,4 +61,4 @@ Python (pandas, NumPy, regex, datetime), data cleaning and reconciliation, missi
 
 ## Author
 Priscilla Kungu · Mechanical Engineer & Junior Data Scientist · Nairobi, Kenya
-[[LinkedIn](https://www.linkedin.com/in/priscilla-kung-u-9a6064102/)] · [priscilla.w.kungu@gmail.com]
+[[LinkedIn](https://www.linkedin.com/in/priscilla-kung-u-9a6064102/)]
